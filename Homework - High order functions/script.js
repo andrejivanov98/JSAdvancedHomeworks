@@ -4,8 +4,8 @@ function getInfo(){
             return promise.json()
         })
         .then (function(students){
-         //let averageMoreThan3 = students.filter(student => student.averageGrade>3);
-         //console.log(averageMoreThan3);
+         let averageMoreThan3 = students.filter(student => student.averageGrade>3);
+         console.log(averageMoreThan3);
          //let femalesAverageMoreThan3 = students.filter(student => student.averageGrade > 3 && student.gender != "Male");
          //console.log(femalesAverageMoreThan3);
          //let malesFromSkopjeOver18 = students.filter(student => student.gender != "Female" && student.age >18 && student.city === "Skopje").map(student => `${student.firstName} ${student.lastName}`);
