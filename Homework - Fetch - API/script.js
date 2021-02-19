@@ -1,3 +1,5 @@
+//API calls with Fetch
+
 let btn = document.getElementById("btn");
 
 let table = document.getElementById("table");
